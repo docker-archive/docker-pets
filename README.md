@@ -1,14 +1,13 @@
 # Docker Pets
 
-Docker Pets is a simple application that's useful for testing out features of Docker Datacenter.
+Docker Pets is a simple application that's useful for testing out features of Docker Enterprise Edition.
 
 If you are interested in a guide on how to demo Docker Pets on the Universal Control Plane then check out [this tutorial](https://github.com/mark-church/docker-pets/blob/master/DEMO-DDC.md).
 
-If you are interested in contributing to Docker pets please check out the [Release Notes & Roadmap.](https://github.com/mark-church/docker-pets/blob/master/ROADMAP.md).
 
 ## Versioning
 
-- `1.0` is the primary version that should be used for demos.
+- `1.0` is the primary version that should be used for demos. `latest` is also tagged with `1.0`
 - `2.0` is a version with minor visual changes. Use this to demonstrate rolling updates from `1.0` to `2.0`
 - `broken` is a version that reports a failed healthcheck. Use this version to demonstrate an unsucessful rolling update.
 
@@ -23,12 +22,10 @@ If you are interested in contributing to Docker pets please check out the [Relea
 Pets is hosted on the Docker Hub at `chrch/docker-pets:latest` but you can also build it locally with the following steps
 
 ```
-$ git clone https://github.com/mark-church/docker-pets
+$ git clone https://github.com/dockersamples/docker-pets.git
 $ cd docker-pets/web
 $ docker build -t docker-pets .
 ```
-
-
 
 ## Running Pets as a Single Container, Stateless App
 ```
@@ -42,7 +39,7 @@ pets
 This is the full architecture that is deployed when using [pets-dev-compose.yml](https://github.com/mark-church/docker-pets/blob/master/pets-dev-compose.yml).
 
 ```
-$ git clone https://github.com/mark-church/docker-pets
+~$ git clone https://github.com/dockersamples/docker-pets.git
 
 ~/docker-pets$ docker -v
 Docker version 1.13.1-rc1, build 2527cfc
