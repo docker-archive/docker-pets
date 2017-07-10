@@ -1,0 +1,143 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F8F9;
+  height: 100vh;
+  font-family: 'Open Sans';
+}
+
+div.title {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+div.title p {
+  text-align: left; 
+}
+
+
+div.wrapper {
+  width: 900px;
+  margin-top:40px;
+  position:absolute;
+  left:50%;
+  margin-left:-400px;
+
+}
+
+div.petOpts {
+  width: 800px;
+  margin-top:500px;
+  position:relative;
+  left:50%;
+  margin-left: -275px;
+  text-align: center;
+
+}
+
+div.petOptsLeft {
+  float:left;
+}
+
+div.petOptsRight {
+  float:left;
+}
+
+
+
+
+.btn {
+  background-color:#00cbcb;
+  -moz-border-radius:9px;
+  -webkit-border-radius:9px;
+  border-radius:9px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  margin:30px;
+  margin-left:60px;
+}
+.btn:hover {
+  background-color:#03a3a3;
+}
+.btn:active {
+  position:relative;
+  top:1px;
+}
+
+div.stats {
+  display: inline-block;
+  float:right;
+  text-align: center;
+  margin-right:200px;
+  margin-top:30px;
+  font-size: 1.3em;
+}
+
+div.login {
+  display: inline-block;
+  float:right;
+  text-align: center;
+  margin-right:0px;
+  margin-top:30px;
+  font-size: 1.3em;
+}
+
+div.container {
+  display: inline-block;
+  float:left;
+  text-align: center;
+}
+
+img.centerfold {
+border: 20px solid #1aaaf8;
+width:350px;
+}
+
+
+b {
+  color: #00cbca;
+} 
+
+h2 {
+    color: #1aaaf8;
+}
+
+h4 {
+  font-size: 20px;
+  color: #253237;
+}
+
+#directions {
+  font-size: 20px;
+  color: #253237;
+}
+
+input[type="text"]  {
+    background-color: transparent;
+    color: #253237;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #253237 2px;
+    padding: 3px 10px;
+    width: 350px;
+    font-size: 16px;
+    text-align: center;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+
