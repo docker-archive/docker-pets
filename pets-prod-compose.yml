@@ -4,7 +4,7 @@ services:
         image: chrch/docker-pets:1.0
         deploy:
             mode: replicated
-            replicas: 2
+            replicas: 3
             labels:
                 com.docker.ucp.mesh.http.5000: "external_route=http://<pets.url>,internal_port=5000"
                 com.docker.ucp.mesh.http.7000: "external_route=http://<admin.url>,internal_port=7000,sticky_sessions=paas_admin_id"
